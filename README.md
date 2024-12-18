@@ -1,0 +1,1 @@
+This repository demonstrates an unusual HTML bug involving CSS display and visibility properties.  The bug occurs when display: none and visibility: visible are applied to the same element. While visibility: visible should make a visible element, the display:none overrides it, making the element still invisible. The solution shows how to correct the behavior.
