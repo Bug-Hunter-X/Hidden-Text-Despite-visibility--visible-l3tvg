@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will now be displayed correctly.
+  </div>
+  <script>
+    // Correct solution: Remove display: none or set display: block or inline or other valid display value
+    document.getElementById("myDiv").style.display = "block"; 
+    // document.getElementById("myDiv").style.visibility = "visible"; // This line is now redundant.
+  </script>
+</body>
+</html>
